@@ -1,0 +1,11 @@
+*
+!.gitignore
+!.bashrc
+!.bash_history
+!.bash_aliases
+!/srelay/
+!/srelay/**
+!vpn.sh
+!/.ssh/
+!/.ssh/config
+!/.ssh/known_hosts
