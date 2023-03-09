@@ -742,3 +742,12 @@ less .gitignore
 vim .gitignore 
 git status
 git add .bash_history 
+git rm .bash_history 
+git add .gitignore 
+git commit -m "exclude .bashhistory"
+git push
+git status
+git rm .bash_history 
+nvim .gitignore 
+git rm .bash_history 
+git add .bash_history 
