@@ -1,69 +1,3 @@
-gparted
-sudo apt installgparted
-sudo apt install gparted
-sudo gparted
-less /etc/fstab
-ls /boot/
-sudo apt install -y ubuntu-restricted-extras
-sudo apt install deluge
-deluge
-sudo apt install gnome-tweaks
-sudo apt install chromium
-sudo apt install chromium-browser
-sudo apt install chromium-browser authy
-sudo apt install authy
-sudo apt install snapd
-sudo snap install authy
-authy
-sudo apt i 
-nvidia-prime
-sudo apt install nvidia-prime
-sudo apt update
-sudo apt upgrade
-sudo apt install nvidia-prime
-sudo apt install gnome-system-monitor
-sudo apt install chrome-gnome-shell
-sudo apt install gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 gnome-system-monitor
-sudo apt install nvidia-smi
-sudo apt install nvidia-utils-525 
-nvidia-smi 
-sudo apt install lm-sensors 
-find / -xdev -name *.desktop 2>/dev/null
-find / -xdev -name *chrom*.desktop 2>/dev/null
-cp /usr/share/app-install/desktop/chromium-browser:chromium-browser.desktop .local/share/applications/
-chromium-browser --app=https://teams.microsoft.com/
-chromium --app=https://teams.microsoft.com/
-find / -xdev -name *chrom*.desktop 2>/dev/null
-less /usr/share/app-install/desktop/chromium-bsu:chromium-bsu.desktop
-flatpak list
-flatpak run org.chromium.Chromium --app=https://teams.microsoft.com/ 
-find / -xdev -name *cifhbcnohmdccbgoicgdjpfamggdegmo* 2>/dev/null
-mount
-sudo apt install nfs-kernel-server
-sudo vim /etc/exports 
-sudo code /etc/exports 
-sudo apt install vim
-sudo vim /etc/exports 
-sudo exportfs
-sudo systemctl nfs-kernel-server restart
-sudo bash
-sudo vim /etc/exports 
-cpupower
-sudo apt install linux-nvidia-tools-common 
-sudo apt install linux-tools-common 
-sudo apt remove linux-tools-common 
-cpupower 
-sudo apt remove linux-nvidia-tools-common 
-sudo apt install turbostat
-sudo apt remove linux-tools-common 
-sudo apt install linux-tools-common 
-cpupower 
-sudo apt remove linux-tools-common 
-sudo apt install linux-tool-generic
-sudo apt install linux-tools-generic
-cpupower 
-sudo apt remove linux-tool-generic
-sudo apt remove linux-tools-generic
 sudo lshw -C cpu 
 lsmod | less 
 ls /sys/devices/system/cpu/cpu0/cpufreq/ 
@@ -337,3 +271,467 @@ authy
 sudo snap refresh authy
 sudo snap restore authy
 sudo snap reboot
+authy 
+snap restore authy
+./vpn.sh 
+less vpn.sh 
+$HOME/srelay/srelay -c $HOME/srelay/srelay.conf
+snap remove authy
+snap install authy
+authy
+snap run authy
+snap run --gdbserver authy
+sudo apt install gdbserver
+snap run --gdbserver authy
+cont
+snap run --gdbserver authy
+sudo apt remove gdbserver
+sudo apt remove gdb
+sudo apt autoremove
+authy --remote-debugging-port=5858
+sudo apt remove snapd
+snap
+sudo apt install snapd
+snap list
+authy
+tail -f /var/log/dmesg
+./vpn.sh 
+gdb -ex="target remote :43633" -ex=continue -ex="signal SIGCONT"
+sudo apt install gdb
+gdb -ex="target remote :43633" -ex=continue -ex="signal SIGCONT"
+gdb -ex="target remote :34895" -ex=continue -ex="signal SIGCONT"
+authy
+sudo vim srelay/srelay.conf 
+ps aux | grep authy
+ps aux | grep Authy
+ps aux | grep - snap
+ps aux | grep -i snap
+snap --version
+SNAPD_DEBUG=1 snap run authy
+less /run/user/1000/doc/by-app/snap.authy
+ls /run/user/1000/doc/by-app/snap.authy
+ll /run/user/1000/doc/by-app/snap.authy
+ll /run/user/1000/doc
+ll /run/user/1000/doc/by-app/snap.authy/
+ll /run/user/1000/doc/by-app
+pass
+sudo apt install pass
+curl -sSL github.com/passff/passff-host/releases/latest/download/install_host_app.sh | bash -s -- firefox
+apt install pass-extension-otp
+sudo apt install pass-extension-otp
+sudo apt install pass-extension-import
+sudo apt list pass-extension-*
+wget -qO - https://pkg.pujol.io/debian/gpgkey | gpg --dearmor | sudo tee /usr/share/keyrings/pujol.io.gpg >/dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/pujol.io.gpg] https://pkg.pujol.io/debian/repo all main' | sudo tee /etc/apt/sources.list.d/pkg.pujol.io.list
+sudo apt-get update
+sudo apt-get install pass-extension-import
+pass import bitwarden Downloads/bitwarden_export_20230306200402.csv
+pass
+pass init
+gpg2 --full-generate-key
+sudo apt install gpg2
+sudo apt install gpg
+sudo apt install gnupg2
+gpg2 --full-generate-key
+sudo gparted
+sudo mv .gnupg/ /media/c0lin/keys/
+gpg2 --list-secret-keys --keyid-format LONG
+sudo cp -r /media/c0lin/keys/.gnupg/ .
+ls
+ll
+sudo ll
+sudo ls -al
+sudo cp -r /media/c0lin/keys/.gnupg .
+sudo ls -al
+gpg2 --list-secret-keys --keyid-format LONG
+gpg2 --list-secret-keys 
+sudo rm -r .gnupg/
+sudo cp -r /media/c0lin/keys/.gnupg .
+ll
+sudo ls -al
+sudo chown -r c0lin:c0lin .gnupg/
+sudo chown -R c0lin:c0lin .gnupg/
+gpg2 --list-secret-keys --keyid-format LONG
+pass init 'C47E7AA8C913F4A5'
+pass import bitwarden Downloads/bitwarden_export_20230306200402.csv 
+shred Downloads/bitwarden_export_20230306200402.csv 
+rm Downloads/bitwarden_export_20230306200402.csv 
+shred Downloads/bitwarden_encrypted_export_20230306200303.json 
+rm Downloads/bitwarden_encrypted_export_20230306200303.json 
+sudo cryptsetup luksFormat /dev/sdc
+sudo cryptsetup luksOpen /dev/sdc stick
+sudo mkfs.ext4 /dev/mapper/stick -L keys
+sudo cryptsetup luksClose stick
+touch /media/c0lin/keys/test.txt
+ll /media/c0lin/keys/
+sudo touch /media/c0lin/keys/test.txt
+git remote add origin git@github.com:c0linh/home.git
+git init
+git config --global init.defaultBranch main
+git checkout main
+git branch
+git branch -l
+git branch -m main
+git status
+sudo vim .gitignore
+vim .gitignore
+code .
+ls
+ls -al
+cd .password-store/
+ls
+cd ..
+cd snap/authy/12/.config/
+ls
+cd ..
+cd .local/
+ls
+cd share/
+ls
+find ~ -name *authenticator.xml
+findr *authenticator.xml
+cd
+. .bash_aliases 
+findr *authenticator.xml
+sudo cp -r .password-store/ /media/c0lin/keys/
+cd /media/c0lin/
+ll
+chown -R c0lin:c0lin keys/
+sudo chown -R c0lin:c0lin keys/
+ls
+cd keys/
+ls
+ll
+rm test.txt 
+cd ..
+cryptsetup close /dev/mapper/keys
+cd 
+cd /dev/mapper/
+ls
+cryptsetup close luks-19d5ab1b-2685-4222-820a-3c13d6267ac1 
+sudo cryptsetup close luks-19d5ab1b-2685-4222-820a-3c13d6267ac1 
+cd
+git add -A
+git status
+git commit -m "Important Homefolder Data"
+git config --global user.email "colin.haldemann@c0lin.ch"
+git config --global user.name "Colin Haldemann"
+git commit -m "Important Homefolder Data"
+git push
+git remote add origin git@github.com:c0linh/home.git
+git push
+git push --set-upstream origin main
+gpg2 --list-public-keys 
+gpg2 --list-public-keys --keyid-format LONG
+tldr gpg2
+gpg2 --list-keys
+gpg2 --export 
+gpg2 --export-ownertrust 
+gpg2 --import-ownertrust 
+gpg2 --import-ownertrust 99F8BCC840F373D405541F8DC47E7AA8C913F4A5:6:
+gpg2 --import-ownertrust 99F8BCC840F373D405541F8DC47E7AA8C913F4A5
+gpg2 --list-keys
+pg2 --export --armor colin.haldemann@c0lin.ch
+gpg2 --export --armor colin.haldemann@c0lin.ch
+git push
+git push --set-upstream origin main
+tldr gpg2
+gpg2 --export-secret-keys --armor colin.haldemann@c0lin.ch
+gpg2 --export --armor colin.haldemann@c0lin.ch
+sudo apt install gnupg
+sudo apt install gpgme
+sudo apt search c0lin@asterix:~$ 
+sudo apt search gpgme
+sudo apt install gpgme-json
+cd ~/.mozilla/native-messaging-hosts/
+ls
+vim gpgmejson.json
+exit
+which gpgme-json
+exi
+exit
+flatpak list
+code
+reboot
+findr *totem*.desktop
+find ~ -name *totem*.desktop
+find / -name *totem*.desktop 2>/dev/null
+less /usr/share/app-install/desktop/totem:totem.desktop
+less /usr/share/app-install/desktop/totem:org.gnome.Totem.desktop
+less /usr/share/app-install/desktop/totem-plugin-arte.desktop
+find / -name *Totem*.desktop 2>/dev/null
+less /usr/share/applications/org.gnome.Totem.desktop
+vim /usr/share/applications/org.gnome.Totem.desktop
+sudo vim /usr/share/applications/org.gnome.Totem.desktop
+sudo pkill totem
+sudo ps aux | grep srelay
+$HOME/srelay/srelay -c $HOME/srelay/srelay.conf
+sudo apt install gstreamer1.0-libav
+sudo apt remove gstreamer1.0-vaapi
+sudo apt install gstreamer1.0-vaapi
+sudo pkill totem
+sudo apt-get install gstreamer1.0-libav 
+totem --version"
+totem --version
+cd /mnt/data/Videos/Suits\ \(2011\)\ Season\ 1-9\ S01-S09\ \(1080p\ BluRay\ x265\ HEVC\ 10bit\ AAC\ 5.1\ ImE\)/Season\ 08/
+G_DEBUG=fatal_warnings totem Suits\ \(2011\)\ -\ S08E15\ -\ Stalking\ Horse\ \(1080p\ BluRay\ x265\ ImE\).mkv 
+totem Suits\ \(2011\)\ -\ S08E15\ -\ Stalking\ Horse\ \(1080p\ BluRay\ x265\ ImE\).mkv 
+sudo apt remove gstreamer1.0-vaapi
+cd
+apt list --manual-installed=true
+snap list
+snap remove --purge authy
+snap remove --purge gtk-common-themes 
+snap remove --purge bare 
+snap remove --purge gnome-3-28-1804 
+snap remove --purge core18
+snap remove --purge snapd
+snap list
+apt remove --purge snap
+sudo apt remove --purge snap
+y
+sudo apt remove --purge snapd
+sudo apt autoremove 
+sudo -H gedit /etc/apt/preferences.d/nosnap.pref
+sudo apt update
+sudo apt list --installed
+pkill settings
+sudo pkill settings
+sudo gparted
+sudo systemctl start docker
+newgrp docker
+docker-compose exec nginx id www-data
+docker compose exec nginx id www-data
+newgrp docker
+vim .bash_aliases 
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list
+sudo apt update && sudo apt install codium
+code
+codium
+cd code/redducksch/files/
+chmod -r 755 .
+chmod -r . 755 
+chmod -R 755 . 
+docker run hello-world
+sudo systemctl stop docker.service
+sudo systemctl stop containerd.service
+docker run hello-world
+mkdir code
+cd code
+cd ..
+cd code/redducksch/
+echo "https://phpdocker.io/" > notes.txt
+docker-compose
+sudo apt install docker-compose
+docker-compose
+sudo apt remove --purge docker-compose
+sudo apt autoremove
+docker
+./vpn.sh 
+dpkg --get-selections
+apt list --manual-installed 
+zcat /var/log/apt/history.log.*.gz | cat - /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq wc -l
+zcat /var/log/apt/history.log.*.gz | cat - /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq| wc -l
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq| wc -l
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|wc -l
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|unique
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq
+sudo apt get remove language-pack-ar
+pcic76qW
+sudo apt remove language-pack-ar
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq| grep -E ".*-ar$"
+sudo apt remove hunspell-ar
+language-pack-ar
+language-pack-gnome-ar
+libreoffice-l10n-ar
+mythes-ar
+apt-mark showmanual
+grep "apt-get install" /var/log/apt/history.log
+sudo apt install wine
+sudo apt remove wine
+sudo autoremove
+sudo apt autoremove
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq| grep -E ".*-ar$"
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq|tr "\n" " "
+cat /var/log/apt/history.log | grep -Po '^Commandline: apt-get install \K.*' | tr ' ' '\n' | grep -v '\-\-reinstall'|grep -v '\-\-force-yes'|grep -v '\-y'|grep -v '\-f'|sort|uniq
+sudo apt remove --purge  gnome-user-docs-es gnome-user-docs-it gnome-user-docs-ja gnome-user-docs-pt gnome-user-docs-ru gnome-user-docs-zh-hans hunspell-ar hunspell-en-au hunspell-en-ca hunspell-en-gb hunspell-en-za hunspell-es hunspell-it hunspell-pt-br hunspell-pt-pt hunspell-ru hyphen-en-ca hyphen-en-gb hyphen-es hyphen-it hyphen-pt-br hyphen-pt-pt hyphen-ru language-pack-ar language-pack-es language-pack-gnome-ar language-pack-gnome-es language-pack-gnome-it language-pack-gnome-ja language-pack-gnome-pt language-pack-gnome-ru language-pack-gnome-zh-hans language-pack-gnome-zh-hant language-pack-it language-pack-ja language-pack-pt language-pack-ru language-pack-zh-hans language-pack-zh-hant libreoffice-help-es libreoffice-help-it libreoffice-help-ja libreoffice-help-pt libreoffice-help-pt-br libreoffice-help-ru libreoffice-help-zh-cn libreoffice-help-zh-tw libreoffice-l10n-ar libreoffice-l10n-en-za libreoffice-l10n-es libreoffice-l10n-it libreoffice-l10n-ja libreoffice-l10n-pt libreoffice-l10n-pt-br libreoffice-l10n-ru libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw mythes-ar mythes-en-au mythes-en-us mythes-es mythes-it mythes-pt-pt mythes-ru wbrazilian wbritish wfrench witalian wportuguese wspanish
+tldr tr
+sudo  apt install popularity-contest 
+popcon-largest-unused
+popularity-contest > /var/log/popularity-contest
+sudo popularity-contest > /var/log/popularity-contest
+sudo bash
+apt show mythes-de-ch
+apt show gir1.2-clutter-1.0
+apt show gir1.2-gtop-2.0
+sudo  apt remove --purge popularity-contest 
+zsh
+sudo apt-get remove docker docker-engine docker.io containerd runc
+less /etc/apt/keyrings/
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+sudo apt-get install docker-ce-rootless-extras
+docker pull adhocore/lemp:8.0
+cat /etc/group
+cat /etc/group | grep docker
+sudo usermod -aG docker $USER
+newgrp docker
+./srelay/srelay -c ./srelay/srelay.conf 
+ps aux | grep code
+groups
+id
+sudo addgroup www-data c0lin
+sudo addgroup c0lin www-data
+cd code/redducksch/files/
+cp index.php index2.php 
+cd ..
+ll
+sudo usermod -a -G www-data c0lin
+id
+reboot
+./srelay/srelay -c ./srelay/srelay
+id
+pass 
+tldr pass
+pass
+pass | grep Plesk
+tldr pass 
+pass edit 'c0lin.ch Plesk'
+man pass
+pass edit 'c0lin.ch Plesk'
+pass | grep c0lin.ch
+pass edit 'c0lin.ch'
+pass edit 'webmail.c0lin.ch'
+pass edit 'dev.c0lin.ch'
+pass edit admin.hostpoint.ch/colin.haldemann@c0lin.ch/admin.hostpoint.ch
+pass edit admin.hostpoint.ch/colin.haldemann@c0lin.ch/admin.hostpoint.ch-1
+pass delete admin.hostpoint.ch/colin.haldemann@c0lin.ch/admin.hostpoint.ch-1
+mv .password-store/admin.hostpoint.ch/colin.haldemann@c0lin.ch/admin.hostpoint.ch.gpg .password-store/admin.hostpoint.ch/
+mv .password-store/admin.hostpoint.ch/colin.haldemann@c0lin.ch/admin.hostpoint.ch.gpg .password-store/admin.hostpoint.ch/colin.haldemann@c0lin.ch/
+pass
+pass edit admin.hostpoint.ch/colin.haldemann@c0lin.ch/
+pass edit admin.hostpoint.ch/colin.haldemann@c0lin.ch
+pass edit admin.hostpoint.ch/admin.hostpoint.ch 
+pass delete admin.hostpoint.ch/colin.haldemann@c0lin.ch/
+rmdir admin.hostpoint.ch/colin.haldemann@c0lin.ch/
+ls .password-store/admin.hostpoint.ch/
+pass
+docker compose up
+docker compose down
+docker compose up
+docker compose down
+docker compose up
+docker compose down
+docker compose up
+docker compose down
+docker compose up
+docker compose down
+docker compose up
+docker compose down
+docker compose up
+git init
+git add -A
+git commit -m "inital page and local dev env"
+git remote add origin git@github.com:c0linh/redducks.git
+git push -u origin main
+docker compose exec php-fmp bash
+docker compose exec php-fpm bash
+docker compose exec php-fmp bash
+docker compose exec webserver bash
+docker compose exec webserver zsh
+docker compose exec webserver sh
+docker-compose exec php-fpm chown -R www-data:www-data /runtime/
+docker compose exec php-fpm chown -R www-data:www-data /runtime/
+docker compose exec php-fpm bash
+telnet my-domain-name.com
+telnet ftp.redducks.ch 21
+nmap
+sudo apt install nmap
+nmap -p 80 c0lin.ch
+nmap -p 21 c0lin.ch
+iptables -L
+sudo iptables -L
+ufw
+ufw status
+sudo ufw status
+sudo apt install filezilla
+less srelay/srelay.conf 
+cd code
+git clone git@github.com:c0linh/deathnote.git
+cd ../Pictures
+ls
+slideshow jail*
+./vpn.sh 
+cd ../Pictures
+./vpn.sh 
+sudo apt install nvchad
+sudo apt install nvim
+sudo apt install neovim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
+git clone https://github.com/NvChad/NvChad ~/.config/nvim
+nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
+git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
+nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
+rm -rf ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
+rm -rf ~/.config/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+rmdir ~/.local/share/nvim
+rmdir -f ~/.local/share/nvim
+rmdir -r ~/.local/share/nvim
+tldr rmdir
+rm -rf ~/.local/share/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+nvim
+rm -rf ~/.config/nvim
+docker run -w /root -it --rm alpine:edge sh -uelic '
+    apk add git nodejs neovim ripgrep alpine-sdk --update
+    git clone https://github.com/NvChad/NvChad ~/.config/nvim
+    nvim
+    '
+sudo apt remove neovim
+neovil
+nvim
+nvim -version
+nvim --version
+sudo apt remove neovim
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt update && sudo apt install neovim
+neovim --version
+sudo apt upgrade
+neovim
+nvim
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update && sudo apt upgrade
+nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+nvim
+sudo apt install oh-my-bash
+spt search oh my
+apt search oh my
+apt search bash
+apt search powerline
+sudo apt install powerline
+sudo apt install powerline-git-status
+sudo apt install powerline-gitstatus
+exit
+nvim .bashrc 
+exit
+$
+cd
+cd code/
+ls
+cd code/redducksch/
+nvim ~/.bashrc 
+sudo apt remove powerline
+nvim ~/.bashrc
+exit
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+~/.bash_it/install.sh
+exit
+git add -A
