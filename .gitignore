@@ -1,7 +1,6 @@
 *
 !.gitignore
 !.bashrc
-!.bash_history
 !.bash_aliases
 !/srelay/
 !/srelay/**

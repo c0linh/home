@@ -735,3 +735,10 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh
 exit
 git add -A
+git commit -m "bash-it and neovim"
+git push
+git status
+less .gitignore
+vim .gitignore 
+git status
+git add .bash_history 
